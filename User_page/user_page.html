@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Page</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="container_header">
+            <div></div>
+            <div class="phone_book_logo">PhoneBook</div>
+            <button class="button_logout" onclick="document.location.href='../Login_page/login_page.html'">Logout</button>
+        </div>
+
+        <div class="phone_book_container">
+            <div class="phone_book_user">
+                    <img src="image/user_image.webp" alt="user_image" class="profile_image">
+                    <h3 class="user_name">Meri Sakanyan</h3>
+                    <button class="contacts_button">Contacts</button>
+                    <button class="new_contact_button" onclick="document.location.href='../Create_new_contact/create_new_contact.html'" >Create New Contact</button>
+                    <button class="remote_contacts">Remote Contacts</button>
+             </div>
+             <div class="vertical_line"></div>
+            <div class="phone_book">
+                <div class="contacts_description">
+                    <div><h2>Contacts</h2></div>
+                    <div><input type="text" class="contacts_description_input"></div>
+                    <div><button class="contacts_description_search">Search</button></div>
+                </div>
+                <hr/>
+                <div class="contacts_list">
+                <!--  <div class="phone_book_contact">
+                     <img src="image/user.webp" alt="userimage" class="user_image">
+                    <h6 class="name">Artur Hovhannisyan</h6>
+                     <div class="edit"><i class="fa-solid fa-pen"></i></div>
+                     <div class="call"><i class="fa-solid fa-phone-flip"></i></div>
+                     <div class="delite"><i class="fa-solid fa-trash"></i></div>
+                </div> -->
+
+                <!-- <div class="phone_book_contact">
+                    <img src="image/user.webp" alt="userimage" class="user_image">
+                     <h6 class="name">Viktorya Movsisyan</h6>
+                    <div class="edit"><i class="fa-solid fa-pen"></i></div>
+                    <div class="call"><i class="fa-solid fa-phone-flip"></i></div>
+                    <div class="delite" onclick="isEmail()"><i class="fa-solid fa-trash"></i></div>
+               </div>  -->
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <script src="js/user_page.js"></script>
+</body>
+</html>

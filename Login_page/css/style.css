@@ -1,0 +1,87 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: #FFFDFA;
+    font-family: 'Raleway', sans-serif;
+    background-color: #474652;
+}
+
+.main {
+    width: 500px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.phone_book_text {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
+    color: #FFFDFA;
+    margin-top: 30px;
+}
+
+.user_image {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+#form {
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.input_gruop {
+    margin-bottom: 30px;
+    position: relative;
+ }
+ 
+input {
+    width: 100%;
+    padding: 10px;
+    color: #FFFDFA;
+    background-color:#474652;
+    border: 1px solid #FFFDFA;
+    margin-top: 5px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.form input:focus {
+    outline: none;
+} 
+
+label {
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 6px;
+    padding: 10px;
+    color: #FFFDFA;
+    cursor: text;
+    transition: 0.2s;
+}
+
+#check {
+    width: 238px;
+    height: 38px;
+    color: #FFFDFA;
+    background-color: #474652;
+    border: 1px solid #FFFDFA;
+    margin-top: 9px;
+    margin-left: 143px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+input:focus~label {
+    top: -35px;
+    font-size: 14px;
+}
+
+

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phone Book</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="new_contact_container">
+        <div class="header_text">create new contact</div>
+      <form>
+            <div class="row">
+                <div class="input_gruop">
+                    <input type="text" id="name" required>
+                    <label for="name"><i class="fa-solid fa-user"></i>  Name</label>
+                </div>
+                <div class="input_gruop">
+                    <input type="text" id="surname" required>
+                    <label for="surname"><i class="fa-solid fa-user"></i>  Surname</label>
+                </div>
+            </div>
+
+            <div class="input_gruop">
+                <input type="" id="number" required>
+                <label for="number"><i class="fa-solid fa-phone"></i>  Phone No.</label>
+            </div>
+
+            <div class="input_gruop">
+                <input type="email" id="email" required>
+                <label for="email"><i class="fa-solid fa-envelope"></i>  Email Id</label>
+            </div>
+
+            <div class="input_gruop">
+                <textarea id="message" rows="5" required></textarea>
+                <label for="message"><i class="fa-solid fa-comment"></i>  Your Message</label>
+            </div>
+            
+            <button type="submit" id="submit"><i class="fa-solid fa-paper-plane"></i> SUBMIT</button>
+            <button  onclick="document.location.href='../User_page/user_page.html'" class="button_back">BACK TO CONTACT PAGE</button>
+        </form>
+    </div>
+    <script src="js/create_new_contact.js"></script>
+</body>
+</html>

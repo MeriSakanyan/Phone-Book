@@ -1,0 +1,217 @@
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: #FFFDFA;
+    font-family: 'Raleway', sans-serif;
+    background-color: #474652;
+}
+.container_header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 50px;
+} 
+.phone_book_logo {
+    color: #FFFDFA;
+    font-size: 34px;
+    margin-left: 180px;
+}
+
+.button_logout {
+    width: 108px;
+    height: 30px;
+    color: #FFFDFA;
+    background-color: #474652;
+    border: 1px solid #FFFDFA;
+}
+
+.phone_book_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 560px;
+    padding: 60px 30px;
+    border-radius: 8px;
+}
+
+.phone_book_user {
+    display: flex;
+    flex-direction: column;
+    width: 175px;
+}
+.vertical_line {
+    border-left: 1px solid #FFFDFA;
+    height: 630px;
+}
+.phone_book {
+    width: 540px;
+    margin-bottom: 333px;
+}
+
+.profile_image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin:-265px 0px 0px 46px;
+}
+
+
+.user_name {
+    text-align: center;
+    color: #FFFDFA;
+}
+
+
+.contacts_button, .new_contact_button, .remote_contacts{
+    display: block;
+    color: #FFFDFA;
+    border: 1px solid #FFFDFA;
+    width: 166px;
+    height: 40px;
+    text-align: center;
+    margin-top: 19px;
+    cursor: pointer;
+    font-weight: 700;
+    background-color: #474652;
+}
+
+
+.contacts_button:hover, .new_contact_button:hover{
+    background-color: #b5b5b6;
+}
+
+
+.contacts_description {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: -143px;
+}
+
+.contacts_description_input {
+    margin-top: 32px;
+    height: 20px;
+    background-color: #474652;
+    border: 1px solid #FFFDFA;
+    color: #FFFDFA;
+}
+
+.contacts_description_search {
+    margin-top: 31px;
+    height: 24px;
+    width: 70px;
+    color: white;
+    cursor: pointer;
+    background-color: #474652;
+    border: 1px solid #FFFDFA;
+}
+
+.contacts_description_input:focus {
+    outline: none;
+}
+
+hr {
+    width: 483px;
+    height: 0px;
+}
+
+.phone_book_contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 30px;
+    
+}
+
+.user_image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 0;
+}
+
+.icon {
+    margin-top: 20px;
+}
+
+.edit, .call, .delite {
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.edit {
+    color: white;
+}
+
+.call {
+    color: rgb(95, 143, 90);
+}
+
+.delite {
+    color: rgb(95, 82, 46);
+}
+
+
+.remoteContacts {
+	display: none;
+	width: 100%;
+	height: 200%;
+	position: absolute;
+	top: 0;
+	background-color: rgb(150 199 198 / 90%);
+}
+h2 {
+	color: #fff;
+	text-align: center;
+	margin-top: 30px;
+}
+.remoteContacts .remoteContactsField {
+	width: 80%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	margin: 0 auto;
+	margin-top: 30px;
+	border: 1px solid white;
+}
+.remoteContactsClose {
+    width: 200px;
+    height: 50px;
+    background-color: #fff;
+    font-size: 26px;
+    margin: -19px 0px 0px 569px;
+    color: white;
+    background-color: rgb(150 199 198 / 90%);
+    border: rgb(150 199 198 / 90%);
+    cursor: pointer;
+}
+
+.phoneSuscriberField {
+    display: none;
+	width: 600px;
+	height: 300px;
+	position: absolute;
+	top: 0;
+	background-color: rgb(150 199 198 / 90%);
+    margin-left: 253px;
+    margin-top: 328px;
+}
+
+.phoneSuscriberHeading {
+    text-align: center;
+}
+.phoneSuscriberClose {
+    height: 26px;
+    width: 97px;
+    color: white;
+    background-color: rgb(150 199 198 / 90%);
+    border: rgb(150 199 198 / 90%);
+    border-radius: 5px;
+    font-size: 29px;
+    margin-top: 148px;
+    margin-left: 242px;
+}
